@@ -1,0 +1,54 @@
+:root {
+  --body-bg-color: #f6eeff;
+  --purple: #bb99dd;
+}
+
+* {
+  background-color: var(--body-bg-color);
+}
+a{
+  color:#bb99dd;
+  text-decoration: none;
+}
+main div:hover {
+  background-color: #bb99dd
+}
+p {
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: var(--purple);
+}
+svg {
+  height: 2rem;
+}
+div {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5rem;
+}
+
+main > div {
+  font-family: sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: var(--purple);
+  border: solid;
+  width: 15rem;
+  height: 3rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border: solid;
+  padding: 0.2rem;
+  color: var(--purple);
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 100%;
+}
